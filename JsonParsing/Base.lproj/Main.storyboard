@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Weather Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JsonParsing" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WeatherController" customModule="JsonParsing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,10 +65,10 @@
             </objects>
             <point key="canvasLocation" x="1039" y="-542"/>
         </scene>
-        <!--View Controller-->
+        <!--Color Controller-->
         <scene sceneID="QE7-t9-UTr">
             <objects>
-                <viewController id="3GB-Nt-PCW" sceneMemberID="viewController">
+                <viewController id="3GB-Nt-PCW" customClass="ColorController" customModule="JsonParsing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D3v-cd-9H7">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -103,10 +103,10 @@
             </objects>
             <point key="canvasLocation" x="1966" y="211"/>
         </scene>
-        <!--View Controller-->
+        <!--User Controller-->
         <scene sceneID="Kea-Y8-vnj">
             <objects>
-                <viewController id="85I-5P-9bM" sceneMemberID="viewController">
+                <viewController id="85I-5P-9bM" customClass="UserController" customModule="JsonParsing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ead-ki-fPh">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -136,6 +136,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="w8D-nT-K2e"/>
+                    <connections>
+                        <outlet property="tableView" destination="PPK-gx-28i" id="GRv-To-Dgs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="srd-eR-hkk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -147,6 +150,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="sow-ZY-2GA" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wS7-vI-hcK">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
