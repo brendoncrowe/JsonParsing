@@ -7,29 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4079699129675647006B8BF6 /* coffee.json in Resources */ = {isa = PBXBuildFile; fileRef = 4079699029675647006B8BF6 /* coffee.json */; };
+		4079699629676D42006B8BF6 /* CoffeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4079699529676D42006B8BF6 /* CoffeeModel.swift */; };
+		40796998296770AC006B8BF6 /* CoffeeCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40796997296770AC006B8BF6 /* CoffeeCustomCell.swift */; };
+		4079699A2967741F006B8BF6 /* ImageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407969992967741F006B8BF6 /* ImageClient.swift */; };
+		4079699C296779D2006B8BF6 /* CoffeeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4079699B296779D2006B8BF6 /* CoffeeDetail.swift */; };
 		40B4E7F629661809008FDD84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4E7F529661809008FDD84 /* AppDelegate.swift */; };
 		40B4E7F829661809008FDD84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4E7F729661809008FDD84 /* SceneDelegate.swift */; };
-		40B4E7FA29661809008FDD84 /* WeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4E7F929661809008FDD84 /* WeatherController.swift */; };
+		40B4E7FA29661809008FDD84 /* CoffeeTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4E7F929661809008FDD84 /* CoffeeTypeController.swift */; };
 		40B4E7FD29661809008FDD84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B4E7FB29661809008FDD84 /* Main.storyboard */; };
 		40B4E7FF2966180B008FDD84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B4E7FE2966180B008FDD84 /* Assets.xcassets */; };
 		40B4E8022966180B008FDD84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B4E8002966180B008FDD84 /* LaunchScreen.storyboard */; };
 		40B4E80A29661A11008FDD84 /* ColorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4E80929661A11008FDD84 /* ColorController.swift */; };
-		40B4E80C29661A1B008FDD84 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4E80B29661A1B008FDD84 /* UserController.swift */; };
+		40B4E80C29661A1B008FDD84 /* UserListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4E80B29661A1B008FDD84 /* UserListController.swift */; };
 		40B4E81229661F0A008FDD84 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 40B4E81129661F0A008FDD84 /* users.json */; };
 		40B4E81429661F46008FDD84 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4E81329661F46008FDD84 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4079699029675647006B8BF6 /* coffee.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = coffee.json; sourceTree = "<group>"; };
+		4079699529676D42006B8BF6 /* CoffeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeModel.swift; sourceTree = "<group>"; };
+		40796997296770AC006B8BF6 /* CoffeeCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCustomCell.swift; sourceTree = "<group>"; };
+		407969992967741F006B8BF6 /* ImageClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClient.swift; sourceTree = "<group>"; };
+		4079699B296779D2006B8BF6 /* CoffeeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDetail.swift; sourceTree = "<group>"; };
 		40B4E7F229661809008FDD84 /* JsonParsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonParsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B4E7F529661809008FDD84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40B4E7F729661809008FDD84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40B4E7F929661809008FDD84 /* WeatherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherController.swift; sourceTree = "<group>"; };
+		40B4E7F929661809008FDD84 /* CoffeeTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTypeController.swift; sourceTree = "<group>"; };
 		40B4E7FC29661809008FDD84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40B4E7FE2966180B008FDD84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40B4E8012966180B008FDD84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40B4E8032966180B008FDD84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40B4E80929661A11008FDD84 /* ColorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorController.swift; sourceTree = "<group>"; };
-		40B4E80B29661A1B008FDD84 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		40B4E80B29661A1B008FDD84 /* UserListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListController.swift; sourceTree = "<group>"; };
 		40B4E81129661F0A008FDD84 /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		40B4E81329661F46008FDD84 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,6 +55,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4079699229675709006B8BF6 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				40B4E81129661F0A008FDD84 /* users.json */,
+				4079699029675647006B8BF6 /* coffee.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		4079699329675718006B8BF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				40B4E81329661F46008FDD84 /* UserModel.swift */,
+				407969992967741F006B8BF6 /* ImageClient.swift */,
+				40796997296770AC006B8BF6 /* CoffeeCustomCell.swift */,
+				4079699529676D42006B8BF6 /* CoffeeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4079699429675728006B8BF6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				40B4E80929661A11008FDD84 /* ColorController.swift */,
+				40B4E80B29661A1B008FDD84 /* UserListController.swift */,
+				40B4E7F929661809008FDD84 /* CoffeeTypeController.swift */,
+				4079699B296779D2006B8BF6 /* CoffeeDetail.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		40B4E7E929661809008FDD84 = {
 			isa = PBXGroup;
 			children = (
@@ -64,16 +105,14 @@
 		40B4E7F429661809008FDD84 /* JsonParsing */ = {
 			isa = PBXGroup;
 			children = (
-				40B4E7F529661809008FDD84 /* AppDelegate.swift */,
-				40B4E7F729661809008FDD84 /* SceneDelegate.swift */,
-				40B4E7F929661809008FDD84 /* WeatherController.swift */,
-				40B4E80929661A11008FDD84 /* ColorController.swift */,
-				40B4E81129661F0A008FDD84 /* users.json */,
-				40B4E81329661F46008FDD84 /* UserModel.swift */,
-				40B4E80B29661A1B008FDD84 /* UserController.swift */,
+				4079699429675728006B8BF6 /* Controllers */,
+				4079699329675718006B8BF6 /* Models */,
+				4079699229675709006B8BF6 /* JSON */,
 				40B4E7FB29661809008FDD84 /* Main.storyboard */,
 				40B4E7FE2966180B008FDD84 /* Assets.xcassets */,
 				40B4E8002966180B008FDD84 /* LaunchScreen.storyboard */,
+				40B4E7F529661809008FDD84 /* AppDelegate.swift */,
+				40B4E7F729661809008FDD84 /* SceneDelegate.swift */,
 				40B4E8032966180B008FDD84 /* Info.plist */,
 			);
 			path = JsonParsing;
@@ -141,6 +180,7 @@
 				40B4E8022966180B008FDD84 /* LaunchScreen.storyboard in Resources */,
 				40B4E7FF2966180B008FDD84 /* Assets.xcassets in Resources */,
 				40B4E7FD29661809008FDD84 /* Main.storyboard in Resources */,
+				4079699129675647006B8BF6 /* coffee.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,11 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40B4E7FA29661809008FDD84 /* WeatherController.swift in Sources */,
+				4079699C296779D2006B8BF6 /* CoffeeDetail.swift in Sources */,
+				4079699629676D42006B8BF6 /* CoffeeModel.swift in Sources */,
+				40B4E7FA29661809008FDD84 /* CoffeeTypeController.swift in Sources */,
 				40B4E7F629661809008FDD84 /* AppDelegate.swift in Sources */,
-				40B4E80C29661A1B008FDD84 /* UserController.swift in Sources */,
+				40B4E80C29661A1B008FDD84 /* UserListController.swift in Sources */,
 				40B4E7F829661809008FDD84 /* SceneDelegate.swift in Sources */,
 				40B4E81429661F46008FDD84 /* UserModel.swift in Sources */,
+				4079699A2967741F006B8BF6 /* ImageClient.swift in Sources */,
+				40796998296770AC006B8BF6 /* CoffeeCustomCell.swift in Sources */,
 				40B4E80A29661A11008FDD84 /* ColorController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,13 +12,17 @@ struct UserData: Codable {
 }
 
 struct User: Codable {
-    struct Name: Codable{
+    struct Name: Codable {
         let first: String
         let last: String
     }
+    struct Age: Codable {
+        let age: Int
+    }
+    let name: Name
+    let dob: Age
     let gender: String
     let email: String
-    let name: Name
 }
 
 
@@ -27,13 +31,11 @@ extension UserData {
     static func getUsers() -> [User] {
         var users = [User]()
         
-        guard let pathToData = Bundle.main.url(forResource: "users", withExtension: "json") else { fatalError("could not find user.json")}
-        
+        guard let pathToData = Bundle.main.url(forResource: "users", withExtension: "json") else { fatalError("could not find user.json") }
         do {
             let data = try Data(contentsOf: pathToData)
             let usersData = try JSONDecoder().decode(UserData.self, from: data)
             users = usersData.results
-            
         } catch {
             fatalError("failed to load content \(error)")
         }

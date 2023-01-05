@@ -7,7 +7,7 @@
 
 import UIKit
 
-class UserController: UIViewController {
+class UserListController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -21,8 +21,6 @@ class UserController: UIViewController {
         super.viewDidLoad()
         configureTableView()
         loadData()
-        dump(users)
-
     }
     
     private func configureTableView() {
@@ -30,12 +28,12 @@ class UserController: UIViewController {
         tableView.delegate = self
     }
     
-    func loadData() {
+    private func loadData() {
         users = UserData.getUsers()
     }
 }
 
-extension UserController: UITableViewDataSource, UITableViewDelegate {
+extension UserListController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return users.count
     }
